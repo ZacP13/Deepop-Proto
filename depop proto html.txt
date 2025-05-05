@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #fff;
+      color: #000;
+    }
+    header {
+      background-color: #ff3b30;
+      padding: 1rem 2rem;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      padding: 4rem 2rem;
+      background-color: #f5f5f5;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+    .cta {
+      background-color: #ff3b30;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .section {
+      padding: 2rem;
+    }
+    .section h3 {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+    .thread, .community {
+      background-color: #fafafa;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Deepop</h1>
+    <nav>
+      <a href="#trending">Trending</a>
+      <a href="#communities">Communities</a>
+      <a href="#profile">My Profile</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Where style meets your people</h2>
+    <p>Discover, discuss, and drop fits with your community — all in one place.</p>
+    <button class="cta">Start Exploring</button>
+  </div>
+
+  <div class="section" id="trending">
+    <h3>Trending Threads</h3>
+    <div class="thread">
+      <strong>“Vintage Y2K denim — is it back or nah?”</strong>
+      <p>2.1k replies · Updated 5 mins ago</p>
+    </div>
+    <div class="thread">
+      <strong>“Best places to find indie sellers?”</strong>
+      <p>943 replies · Updated 12 mins ago</p>
+    </div>
+  </div>
+
+  <div class="section" id="communities">
+    <h3>Curated Communities</h3>
+    <div class="community">Gorpcore Junkies</div>
+    <div class="community">Depop Girlies</div>
+    <div class="community">Alt/Indie Feed</div>
+    <div class="community">Oversized Forever</div>
+  </div>
+
+  <footer>
+    Got a take? Let the community hear it. Post to Deepop.
+  </footer>
+</body>
+</html>
